@@ -1,5 +1,3 @@
-import './home.css'
-
 function NoPage() {
 
   return (
