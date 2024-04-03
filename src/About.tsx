@@ -6,11 +6,11 @@ function About() {
     <>
       <div className='grid md:grid-cols-5'>
         <div className="md:col-span-3 p-8 m-auto">
-          <p className="text-3xl">Hi, I'm</p>
+          <h3 className="text-3xl">Hi, I'm</h3>
           <h1 className="text-8xl font-bold">Ralph Sanders</h1>
           <h3 className="text-3xl pt-4">Software Developer</h3>
           <p className="pt-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I'm a backend Java developer at IBM in Austin, TX. I love to learn new technologies and build intresting projects. I also enjoy running, playing the guitar, and travel photography.
           </p>
         </div>
         <div className="md:col-span-2 p-8 block m-auto">
