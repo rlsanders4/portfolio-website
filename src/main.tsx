@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './About.tsx'
 import Projects from './Projects.tsx'
 import Photography from './Photography.tsx';
-import Contact from './Contact.tsx';
+import Daras from './Daras.tsx';
 import NavBar from './NavBar.tsx'
 import NoPage from "./NoPage.tsx"
 import './index.css'
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/photography" element={<Photography />} />
-          <Route path="/contact-me" element={<Contact />} />
+          <Route path="/daras" element={<Daras />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

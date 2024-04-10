@@ -76,9 +76,9 @@ function Photography() {
     { index: 29, name: sanFrancisco2, location: "San Francisco, California" },
     { index: 30, name: santaCruz, location: "Santa Cruz, California" },
     { index: 31, name: tucson, location: "Tucson, Arizona" },
-    { index: 32, name: vatican, location: "Vatican City, Italy" },
-    { index: 33, name: vatican2, location: "Vatican City, Italy" },
-    { index: 34, name: vatican3, location: "Vatican City, Italy" },
+    { index: 32, name: vatican, location: "Vatican City" },
+    { index: 33, name: vatican2, location: "Vatican City" },
+    { index: 34, name: vatican3, location: "Vatican City" },
     { index: 35, name: venice, location: "Venice, Italy" },
     { index: 36, name: venice2, location: "Venice, Italy" },
     { index: 37, name: venice3, location: "Venice, Italy" },
@@ -130,7 +130,7 @@ function Photography() {
   }
 
   const photoElements = photos.map(photo =>
-    <img className="w-full h-full object-cover transition ease-in-out duration-100 border-2 hover:scale-105" src={photo.name} id={photo.location} onClick={() => clickPhoto(photo.index)}/>
+    <img className="w-full h-full object-cover transition ease-in-out duration-100 border-2 hover:scale-105 cursor-pointer select-none" src={photo.name} id={photo.location} onClick={() => clickPhoto(photo.index)}/>
   );
 
   return (
