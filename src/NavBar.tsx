@@ -92,6 +92,7 @@ function NavBar() {
           <div className="inline-block px-4 py-2 border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white cursor-pointer select-none" onClick={() => setContactOpen(true)}>Contact Me</div>
         </div>
       </nav>
+      {/* Display contact info */}
       <div className={contactOpen ? "bg-black/85 fixed w-full h-full top-0 left-0 z-10 flex flex-col m-0 justify-center center items-center" : "hidden"} onClick={() => setContactOpen(false)}>
         <div className="flex flex-col items-center justify-center bg-zinc-900 rounded border-2 px-8 pb-16 w-10/12 md:w-1/2" onClick={(e) => e.stopPropagation()}>
           <div className="mr-[99%] mt-[2%] pt-0">
